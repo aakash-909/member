@@ -16,6 +16,10 @@
 		5F462C1127C7C06800EF87BD /* tableviewdictionaryxibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F462C1027C7C06800EF87BD /* tableviewdictionaryxibTests.swift */; };
 		5F462C1B27C7C06800EF87BD /* tableviewdictionaryxibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F462C1A27C7C06800EF87BD /* tableviewdictionaryxibUITests.swift */; };
 		5F462C1D27C7C06800EF87BD /* tableviewdictionaryxibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F462C1C27C7C06800EF87BD /* tableviewdictionaryxibUITestsLaunchTests.swift */; };
+		5F462C2A27C7C0DC00EF87BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F462C2927C7C0DC00EF87BD /* TableViewCell.swift */; };
+		5F462C2C27C7C91E00EF87BD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F462C2B27C7C91E00EF87BD /* SecondViewController.swift */; };
+		5F462C2F27C7C97D00EF87BD /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F462C2D27C7C97D00EF87BD /* TableViewCell1.swift */; };
+		5F462C3027C7C97D00EF87BD /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F462C2E27C7C97D00EF87BD /* TableViewCell1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5F462C1627C7C06800EF87BD /* tableviewdictionaryxibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewdictionaryxibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F462C1A27C7C06800EF87BD /* tableviewdictionaryxibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewdictionaryxibUITests.swift; sourceTree = "<group>"; };
 		5F462C1C27C7C06800EF87BD /* tableviewdictionaryxibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewdictionaryxibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F462C2927C7C0DC00EF87BD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5F462C2B27C7C91E00EF87BD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5F462C2D27C7C97D00EF87BD /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		5F462C2E27C7C97D00EF87BD /* TableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,9 @@
 		5F462BED27C7C06500EF87BD = {
 			isa = PBXGroup;
 			children = (
+				5F462C2D27C7C97D00EF87BD /* TableViewCell1.swift */,
+				5F462C2E27C7C97D00EF87BD /* TableViewCell1.xib */,
+				5F462C2B27C7C91E00EF87BD /* SecondViewController.swift */,
 				5F462BF827C7C06500EF87BD /* tableviewdictionaryxib */,
 				5F462C0F27C7C06800EF87BD /* tableviewdictionaryxibTests */,
 				5F462C1927C7C06800EF87BD /* tableviewdictionaryxibUITests */,
@@ -103,6 +114,7 @@
 				5F462BFB27C7C06500EF87BD /* SceneDelegate.swift */,
 				5F462BFD27C7C06500EF87BD /* ViewController.swift */,
 				5F462BFF27C7C06500EF87BD /* Main.storyboard */,
+				5F462C2927C7C0DC00EF87BD /* TableViewCell.swift */,
 				5F462C0227C7C06800EF87BD /* Assets.xcassets */,
 				5F462C0427C7C06800EF87BD /* LaunchScreen.storyboard */,
 				5F462C0727C7C06800EF87BD /* Info.plist */,
@@ -234,6 +246,7 @@
 				5F462C0627C7C06800EF87BD /* LaunchScreen.storyboard in Resources */,
 				5F462C0327C7C06800EF87BD /* Assets.xcassets in Resources */,
 				5F462C0127C7C06500EF87BD /* Main.storyboard in Resources */,
+				5F462C3027C7C97D00EF87BD /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F462BFE27C7C06500EF87BD /* ViewController.swift in Sources */,
+				5F462C2A27C7C0DC00EF87BD /* TableViewCell.swift in Sources */,
 				5F462BFA27C7C06500EF87BD /* AppDelegate.swift in Sources */,
+				5F462C2F27C7C97D00EF87BD /* TableViewCell1.swift in Sources */,
+				5F462C2C27C7C91E00EF87BD /* SecondViewController.swift in Sources */,
 				5F462BFC27C7C06500EF87BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
